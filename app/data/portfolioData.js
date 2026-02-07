@@ -1,0 +1,178 @@
+export const portfolioData = {
+  hero: {
+    greeting: "Hi. I am Shivam.",
+    roleLines: ["A <Frontend/>", "Developer."],
+    quote:
+      '"Great things in business are never done by one person. They are done by a team of people."',
+    quoteAuthor: "Steve Jobs",
+    name: "Shivam Jaiswal",
+    subtitle: "System Engineer | Frontend Developer | React | Next.js",
+    profileImage: "/images/websiteprofilepic.jpeg",
+  },
+  journey: {
+    title: "My Journey",
+    inProgressText: "is in Progress... (Cloud Certification - AWS)",
+    items: [
+      {
+        id: 1,
+        side: "left",
+        period: "2015 - 2019",
+        text: "Completed Bachelor of Engineering at Ujjain Engineering College (UEC), Ujjain. This phase built my foundation in analytical thinking and disciplined problem solving.",
+        cardTitle: "Engineering Foundation",
+        cardTags: ["UEC", "Bachelor of Engineering"],
+        backgroundImage: "/images/collegepic.jpeg",
+        watermarkTech: [],
+      },
+      {
+        id: 2,
+        side: "right",
+        period: "Late 2021",
+        text: "Started coding seriously and moved toward web development. Focused on JavaScript fundamentals, HTML, CSS, and hands-on frontend practice.",
+        cardTitle: "Entry Into Development",
+        cardTags: ["JavaScript", "HTML", "CSS"],
+        watermarkTech: ["JavaScript", "HTML", "CSS"],
+      },
+      {
+        id: 3,
+        side: "left",
+        period: "May 2022 - Present",
+        text: "Joined TCS as System Engineer - Frontend Developer (Client: Honeywell). Built and scaled enterprise e-commerce experiences across PLP, PDP, Cart, Checkout, and Order Confirmation.",
+        cardTitle: "TCS | Honeywell",
+        cardTags: ["React.js", "Next.js", "Context API", "Redux Toolkit"],
+        backgroundImage: "/images/tcs.png",
+        watermarkTech: ["React.js", "Next.js", "Redux Toolkit"],
+      },
+      {
+        id: 4,
+        side: "right",
+        period: "Impact Delivered",
+        text: "Resolved major performance bottlenecks where pages took 5-8 minutes in worst cases. Applied code splitting, lazy loading, memoization, API optimization, and pagination to bring heavy screens down to under 45 seconds.",
+        cardTitle: "Performance Engineering",
+        cardTags: ["Code Splitting", "Lazy Loading", "Memoization", "REST APIs"],
+      },
+      {
+        id: 5,
+        side: "left",
+        period: "2024 - 2026",
+        text: "Expanded full-stack ability through personal products, GraphQL integrations, chatbot workflows, reusable API layers, accessibility-first UI, and production deployments on Vercel.",
+        cardTitle: "Full-Stack Expansion",
+        cardTags: ["GraphQL", "Tailwind CSS", "Testing", "Vercel"],
+      },
+    ],
+  },
+  projects: {
+    title: "Personal Projects",
+    subtitle:
+      "Production-oriented builds focused on performance, architecture, and user experience.",
+    items: [
+      {
+        id: "storyverse",
+        name: "Storyverse",
+        tagline: "Interactive storytelling platform",
+        link: "https://storyverrse.asumatech.com",
+        image: "/projects/storyverse-preview.svg",
+        imageAlt: "Storyverse preview",
+        summary:
+          "A content-heavy, multi-path storytelling platform with dynamic routing and conditional story flows.",
+        highlights: [
+          "Optimized runtime by mounting only active journey paths and memoizing heavy story blocks.",
+          "Reduced memory usage by keeping only active step state instead of full story graphs.",
+          "Implemented media lazy-loading and caching strategies for faster repeat visits.",
+          "Integrated GraphQL + REST APIs with minimal over-fetching patterns.",
+        ],
+        stack: [
+          "React",
+          "Next.js",
+          "Tailwind CSS",
+          "GraphQL",
+          "REST API",
+          "Vercel",
+        ],
+      },
+      {
+        id: "promohub",
+        name: "PromoHub",
+        tagline: "Influencer and Brand Collaboration SaaS",
+        link: "https://promohubgo.asumatech.com",
+        image: "/projects/promohub-preview.svg",
+        imageAlt: "PromoHub preview",
+        summary:
+          "A role-based SaaS platform for brand-influencer collaboration, onboarding journeys, and high-scale discovery workflows.",
+        highlights: [
+          "Built parameter-driven chatbot flows for contextual onboarding and action routing.",
+          "Created reusable API abstraction with centralized error handling and session-aware fallbacks.",
+          "Implemented multi-parameter creator filtering and performance-aware dashboards.",
+          "Added unit and end-to-end testing coverage for critical journeys.",
+        ],
+        stack: [
+          "React",
+          "Next.js",
+          "Tailwind CSS",
+          "Radix UI",
+          "GraphQL",
+          "Jest",
+          "Playwright",
+          "Render",
+          "Vercel",
+        ],
+      },
+    ],
+  },
+  profile: {
+    email: "shivam.jaiswal2211@gmail.com",
+    phone: "+91-9589544788",
+    github: "https://github.com/shivamj2211",
+    linkedin: "https://linkedin.com/in/shivamjaiswal22/",
+  },
+  skills: {
+    title: "Skills and Experience",
+    groups: [
+      {
+        label: "Languages",
+        items: ["JavaScript (ES6+)", "TypeScript"],
+      },
+      {
+        label: "Frontend",
+        items: [
+          "React.js",
+          "Next.js 14 (App Router)",
+          "HTML5",
+          "CSS3",
+          "Tailwind CSS",
+          "Bootstrap",
+          "Material UI",
+        ],
+      },
+      {
+        label: "State and Data",
+        items: [
+          "React Hooks",
+          "Context API",
+          "Redux Toolkit",
+          "React Query",
+          "REST APIs",
+          "GraphQL",
+          "AJAX",
+          "JSON",
+        ],
+      },
+      {
+        label: "Testing and Quality",
+        items: ["Vitest", "Jest", "React Testing Library", "Playwright", "Semantic HTML", "ARIA basics"],
+      },
+      {
+        label: "Platforms and Tools",
+        items: ["Git", "GitHub", "Bitbucket", "Jira", "Agile/Scrum", "Figma", "VS Code", "IntelliJ", "AEM"],
+      },
+    ],
+  },
+  contact: {
+    heading: "How Can I Help You?",
+    intro: [
+      "If you are looking for someone who can build fast, scalable, and clean user experiences across frontend and full-stack workflows, we should connect.",
+      "I enjoy solving product problems where performance, accessibility, and maintainable architecture matter.",
+      "Share your idea, role, or collaboration plan. I will reply quickly.",
+    ],
+    ctaLabel: "Drop an email",
+  },
+};

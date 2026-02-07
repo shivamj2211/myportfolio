@@ -1,0 +1,26 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#0B2535"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" rx="28" fill="url(#bg)"/>
+  <rect x="56" y="56" width="1488" height="788" rx="26" fill="#0A1B2B" stroke="#22D3EE" stroke-opacity="0.45"/>
+  <rect x="96" y="96" width="620" height="708" rx="20" fill="#0F1E33" stroke="#22D3EE" stroke-opacity="0.25"/>
+  <text x="136" y="180" fill="#67E8F9" font-size="54" font-family="Segoe UI, Arial">Storyverse</text>
+  <text x="136" y="230" fill="#A5F3FC" font-size="26" font-family="Segoe UI, Arial">Interactive Storytelling Platform</text>
+  <rect x="136" y="280" width="540" height="110" rx="14" fill="#0E2235"/>
+  <text x="166" y="347" fill="#CFFAFE" font-size="30" font-family="Segoe UI, Arial">Dynamic multi-path narrative engine</text>
+  <rect x="760" y="96" width="744" height="708" rx="20" fill="#071422" stroke="#22D3EE" stroke-opacity="0.2"/>
+  <rect x="800" y="140" width="664" height="70" rx="12" fill="#0F273A"/>
+  <circle cx="842" cy="175" r="11" fill="#34D399"/>
+  <circle cx="878" cy="175" r="11" fill="#FBBF24"/>
+  <circle cx="914" cy="175" r="11" fill="#F87171"/>
+  <rect x="800" y="240" width="300" height="524" rx="14" fill="#0B2032"/>
+  <rect x="1120" y="240" width="344" height="250" rx="14" fill="#0B2032"/>
+  <rect x="1120" y="514" width="344" height="250" rx="14" fill="#0B2032"/>
+  <text x="842" y="300" fill="#67E8F9" font-size="24" font-family="Segoe UI, Arial">Journey State</text>
+  <text x="1160" y="300" fill="#67E8F9" font-size="24" font-family="Segoe UI, Arial">Story Metadata</text>
+  <text x="1160" y="575" fill="#67E8F9" font-size="24" font-family="Segoe UI, Arial">Media Cache</text>
+</svg>
