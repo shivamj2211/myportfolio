@@ -28,6 +28,10 @@ const techColorMap = {
 
 export default function Experience() {
   const { journey } = portfolioData;
+  const progressText = journey.inProgressText || "is in Progress...";
+  const progressMatch = progressText.match(/^(.*?)(\s*\(.*\))$/);
+  const progressMain = progressMatch ? progressMatch[1].trim() : progressText;
+  const progressNote = progressMatch ? progressMatch[2] : "";
 
   return (
     <section className="mt-8 rounded-2xl border border-emerald-300/50 bg-[linear-gradient(90deg,rgba(24,34,28,0.9),rgba(23,32,40,0.95),rgba(11,26,40,0.95))] px-6 py-10 md:px-10 md:py-14">
@@ -113,13 +117,21 @@ export default function Experience() {
 
         <div className="relative mt-8 hidden md:block">
           <div className="pointer-events-none absolute left-1/2 top-0 h-5 w-5 -translate-x-1/2 rounded-full border-2 border-emerald-100 bg-emerald-300" />
-          <p className="pt-4 text-center text-5xl font-bold text-emerald-300">
-            {journey.inProgressText || "is in Progress..."}
+          <p className="mx-auto max-w-4xl pt-4 text-center text-4xl font-bold leading-tight text-emerald-300">
+            {progressMain}
+            {progressNote ? (
+              <span className="ml-2 align-middle text-xl font-semibold text-emerald-200/85">
+                {progressNote}
+              </span>
+            ) : null}
           </p>
         </div>
 
-        <p className="mt-6 text-center text-3xl font-bold text-emerald-300 md:hidden">
-          {journey.inProgressText || "is in Progress..."}
+        <p className="mx-auto mt-6 max-w-2xl text-center text-2xl font-bold leading-tight text-emerald-300 md:hidden">
+          {progressMain}
+          {progressNote ? (
+            <span className="ml-1.5 text-sm font-semibold text-emerald-200/85">{progressNote}</span>
+          ) : null}
         </p>
       </div>
     </section>
